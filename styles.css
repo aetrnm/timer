@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  background-color: #ffc700;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  line-height: 1.5;
+  font-size: 5rem;
+}
+
+.content {
+  display: flex;
+  flex-grow: 0.5;
+}
+
+.timing-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3rem;
+}
+
+.arrow {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #f1d9b1;
+  color: #000;
+  border-radius: 10px;
+  font-size: 3rem;
+  border: none;
+  outline: none;
+  padding: 2rem 3rem;
+  cursor: pointer;
+}
+
+.btn[disabled] {
+  cursor: not-allowed;
+}

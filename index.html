@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Simple Timer</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="minutes timing-section">
+        <div id="minutes-increase" class="arrow arrow-increase">▲</div>
+        <h1 id="minutes-value" class="time-value">00</h1>
+        <div id="minutes-decrease" class="arrow arrow-decrease">▼</div>
+      </div>
+
+      <div class="seconds timing-section">
+        <div id="seconds-increase" class="arrow arrow-increase">▲</div>
+        <h1 id="seconds-value" class="time-value">05</h1>
+        <div id="seconds-decrease" class="arrow arrow-decrease">▼</div>
+      </div>
+    </div>
+
+    <button id="btn-start" class="btn">START</button>
+
+    <audio id="alarm" src="sounds/alarm.mp3"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
