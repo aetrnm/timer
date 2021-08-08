@@ -34,12 +34,17 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 3rem;
 }
 
 .arrow {
   font-size: 1.5em;
   cursor: pointer;
+}
+
+.time-title{
+  display: flex;
+  align-items: center;
+  margin: 0 2rem;
 }
 
 .btn {
